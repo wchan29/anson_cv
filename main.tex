@@ -1,0 +1,264 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Anson Chan
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage{comment}
+
+
+%----------FONT OPTIONS----------
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubItem}[1]{
+  \item[$\circ$]\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemPtHeader}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumePublicationItem}[1]{
+  \item\small{
+    {#1 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% Fromatting for Eduaction Section
+\newcommand{\resumeEducationSubheading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \vspace{-1.5pt}
+      \textit{\small#3} & \small #4 \\
+      \textit{\small#5} & \small #6 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-20pt}
+}
+
+
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=20pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubItemListStart}{\begin{itemize}[leftmargin=10pt]}
+\newcommand{\resumeSubItemListEnd}{\end{itemize}\vspace{-2pt}}
+\newcommand{\resumePublicationListStart}{\begin{enumerate}[leftmargin=0.15in]}
+\newcommand{\resumePublicationListEnd}{\end{enumerate}\vspace{-16pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{comment}
+%----------HEADING----------
+\begin{center}
+    {\Huge \bfseries WaiYan (Anson) Chan} \\ \vspace{0.5pt}
+    %123 Street Name, Town, State 12345 \\ \vspace{1pt}
+    \href{mailto:ans0nchan@outlook.com}{\raisebox{-0.1\height}\  ans0nchan@outlook.com}~
+    $|$ 
+    \small \raisebox{-0.1\height}\ 630-210-1557~
+    $|$ 
+    \href{wchan29.github.io}{\raisebox{-0.1\height}\ Personal Website: wchan29.github.io} ~
+    \vspace{-8pt}
+\end{center}
+\end{comment}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE WaiYan(Anson) Chan}} & Email: \href{mailto:ans0nchan@outlook.com}{ans0nchan@outlook.com}\\
+  \href{wchan29.github.io}{Website: wchan29.github.io} & Mobile: 630-210-1557 \\
+  \vspace{-15pt}
+\end{tabular*}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeEducationSubheading
+      {University of Wisconsin-Madison}{Madison, WI}
+      {M.S - Electrical and Computer Engineering, GPA: 3.88/4}{Expected July 2024}    
+      {B.S - Mechanical Engineering, GPA: 3.72/4}{December 2021}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    \begin{multicols}{3}
+        \begin{itemize}[leftmargin=0.15in, itemsep=-5pt, parsep=4pt]
+            % ------ INSERT COURSEWORK HERE------
+            \item\small Dynamics and Control of AC Drives 
+            \item EM Design of AC Machines
+            \item Redesign and Prototype Fabrication
+            \item Power Electronic Circuits and Lab
+            \item Automatic Controls Lab
+            \item Finite Elements  
+            % ------ INSERT COURSEWORK HERE------
+        \end{itemize}
+    \end{multicols}
+    \vspace*{1.0\multicolsep}
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {Wisconsin Electric Machinery and Power Electronics Consortium}{August 2022 -- Present}
+            {Graduate Research Assistant – Severson Group}{Madison, WI}
+            \resumeItemListStart
+            \resumeItem{\textbf{Additively Manufactured Stator Housing for High-Speed Bearingless Generator}}
+            \resumeSubItemListStart
+                \resumeSubItem{Develop and fabricate additively manufactured housing with integrated cooling channels for a 100kW, 80kRPM high-speed twin bearingless generator in a microturbine-based CHP generation system.}
+            \resumeSubItemListEnd
+            \resumeItem{\textbf{Bearingless Machines (BSPM) for Aerial E-Turbocharger Application}}
+            \resumeSubItemListStart
+                \resumeSubItem{Perform ANSYS structural and modal analysis to validate high-speed rotor design. Identify critical speed and rotor stress under rated operating condition.}
+                \resumeSubItem{Facilitate the development of a multi-physics modeling framework for evaluating and optimizing BSPM electric machines. Create Python scripts necessary to evaluate machine constants and coil inductances in JMAG. }
+                \resumeSubItem{Perform characterization of a 4-DOF 8kW twin stators BSPM machine. Fabricate components for test fixturing.}
+            \resumeSubItemListEnd
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-13pt}
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+    \resumeSubHeadingListStart
+    
+        \resumeSubheading
+        {Milwaukee Tool}{January – August 2022}
+        {NPD Mechanical Design Engineer}{Brookfield, WI}
+            \resumeItemListStart
+                \resumeItem{Conducted FEA analysis on BLDC motors of different sizes and winding configurations, recommended optimal designs for product development using Pugh Matrix for informed and cost-effective solutions.}
+                \resumeItem{Assessed power tool performance requirements through the collection and analysis of motor thermal characteristics and power output data from competitor products.}
+            \resumeItemListEnd
+    
+        \resumeSubheading
+        {Wisconsin Electric Machinery and Power Electronics Consortium}{September 2019 – December 2021}
+        {Undergraduate Researcher}{Madison, WI}
+            \resumeItemListStart
+                \resumeItem{Prototyped a desktop size dynamometer setup capable of characterizing electric machines rated up to 10 N-m of torque and 3000 RPM. Reduced the original setup volume by 35\%.}
+                \resumeItem{Collaborated with a team of graduate researchers to prototype a modular terminal box for powering a 200 kW NASA prototype machine. Responsible for sourcing parts and creating CAD models. }
+                \resumeItem{Fabricated BSPM machines by producing stator slot windings and machining components used in the assembly. }
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading 
+            {\textbf{eMach} $|$ \emph{Open-Source Python Machine Modeling and Optimization Framework}}{2022 - Present}
+            
+        \resumeProjectHeading
+            {\textbf{Compact Low Voltage Induction Machine with 3D Printed Housing} $|$ \emph{ME Senior Design}}{2021}
+ 
+        \resumeProjectHeading
+            {\textbf{UW CoE Undegraduate Learning Center} $|$ \emph{Tutor, Physics and Engineering Statics}}{2018-19}
+
+        \resumeProjectHeading
+            {\textbf{Wisconsin Racing Electric} $|$ \emph{Chassis Team Member}}{2018-21}
+    
+    \resumeSubHeadingListEnd
+\vspace{-7pt}
+
+ %-----------Publications-----------
+\section{Publications}
+\resumePublicationListStart
+    \resumePublicationItem{T. Noguchi, N. Petersen, \textbf{W. Chan}, L. Rapp, E. Severson,  “Bearingless Motor/Generator Applications in sCO\textsubscript{2} Power Cycles,” \textit{The 8th Internationl Supercritical CO\textsubscript{2} Power Cycles Symposium, San Antonio, TX, USA, 2024 (Accepted)}}
+    
+    \resumePublicationItem{T. S. Slininger, \textbf{W. Chan}, E. L. Severson, and B. Jawdat, "An Overview on Passive Magnetic Bearings," \textit{2021 IEEE International Electric Machines \& Drives Conference (IEMDC), Hartford, CT, USA, 2021}}
+\resumePublicationListEnd
+\vspace{5pt}
+
+ %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Hands-on}{: Electric Machine Fabrication, Component Machining and Assembly, CAD Design and Drafting, GD\&T} \\
+     \textbf{Tools}{: Python, Git, SolidWorks, NX, ANSYS, MATLAB / Simulink, Altium,  LabView, MAGNET, FEMM, JMAG, \LaTeX } \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+\end{document}
