@@ -1,5 +1,5 @@
 # anson_cv
-My resume/CV written in LaTeX. Use LaTeX Workshop in VSCode to compile `resum_anson.tex`.
+My resume/CV written in LaTeX. Use LaTeX Workshop in VSCode to compile `resume_anson.tex`.
 
 ## Author
 
