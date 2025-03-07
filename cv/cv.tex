@@ -1,17 +1,20 @@
-\documentclass[margin,line]{res}
+\documentclass[margin,line, letterpaper]{res}
 
 \usepackage{pifont}
+\usepackage{hyperref}
+\usepackage{enumitem}
 \usepackage[latin1] {inputenc}
 
-%\topmargin .5in
-%\oddsidemargin -.5in
-%\evensidemargin -.5in
+% Text Margin Adjustment
+\topmargin -.2in
+\oddsidemargin -.25in
+\evensidemargin -.25in
 %\textwidth=6.0in
- \textheight=9.0in
+\textheight=9.0in
 %\itemsep=0in
 %\parsep=0in
+
 \usepackage{fancyhdr}
-%\topmargin=0in
 %\textheight=8.5in
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
@@ -34,9 +37,11 @@
 \begin{document}
 
 \name{WaiYan (Anson) Chan \vspace*{.1in}}
-\jobtitle{Graduate Research Assistant / PhD. candidate}
+\jobtitle{Graduate Research Assistant / Ph.D. Candidate}
 \company{University of Wisconsin-Madison}
 \email{wchan29@wisc.edu}
+\website{wchan29.github.io}
+
 
 
 % \begin{tabular}{p{2.75in}}
@@ -47,15 +52,15 @@
 
 \begin{resume}
 
-\input{section/education.tex}
-\input{section/edexperience.tex}
-\input{section/adexperience.tex}
-\input{section/grants.tex}
-\input{section/pubs.tex}
-\input{section/pres.tex}
-\input{section/plang.tex}
-\input{section/certs.tex}
-\input{section/refs.tex}
+  \input{section/education.tex}
+  \input{section/edexperience.tex}
+  \input{section/adexperience.tex}
+  \input{section/grants.tex}
+  \input{section/pubs.tex}
+  \input{section/pres.tex}
+  \input{section/plang.tex}
+  \input{section/certs.tex}
+  \input{section/refs.tex}
 
 \end{resume}
 \end{document}
