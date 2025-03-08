@@ -1,15 +1,19 @@
-\documentclass[margin,line, letterpaper]{res}
+\documentclass[letterpaper, margin,line]{res}
 
 \usepackage{pifont}
 \usepackage{hyperref}
 \usepackage{enumitem}
+\usepackage{array}
+%\renewcommand\labelitemi{--}
+\setlist[itemize]{leftmargin=5mm, label= --}
+
 \usepackage[latin1] {inputenc}
 
-% Text Margin Adjustment
+% ============= Text Margin Adjustment =============
 \topmargin -.2in
 \oddsidemargin -.25in
 \evensidemargin -.25in
-%\textwidth=6.0in
+\textwidth=5.7in
 \textheight=9.0in
 %\itemsep=0in
 %\parsep=0in
@@ -19,7 +23,10 @@
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
 \fancyhf{}
+
+% ============= Footnote =============
 %\rfoot{{\footnotesize Curriculum Vitae, WaiYan Chan, \thepage}}
+
 
 \newenvironment{list1}{
   \begin{list}{\ding{113}}{%
@@ -36,19 +43,13 @@
 
 \begin{document}
 
+% ============= Name / Contact =============
 \name{WaiYan (Anson) Chan \vspace*{.1in}}
 \jobtitle{Graduate Research Assistant / Ph.D. Candidate}
 \company{University of Wisconsin-Madison}
 \email{wchan29@wisc.edu}
 \website{wchan29.github.io}
 
-
-
-% \begin{tabular}{p{2.75in}}
-% (555) 555-5555 \\
-% \verb+user@domain.com+\\
-% \verb+http://url.domain.com+\\
-% \end{tabular}
 
 \begin{resume}
 

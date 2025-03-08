@@ -238,7 +238,7 @@
 \def\@linename{\begingroup
 \def\\{, }
 {\namefont\@name}
-\vskip 2pt
+\vskip 4pt
   {\jobtitlefont\@jobtitle}  % Print job title
 \vskip 1pt
   {\companyfont\@company}  % Print job title
