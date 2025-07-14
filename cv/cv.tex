@@ -4,10 +4,13 @@
 \usepackage{hyperref}
 \usepackage{enumitem}
 \usepackage{array}
-%\renewcommand\labelitemi{--}
-\setlist[itemize]{leftmargin=5mm, label= --}
+\usepackage{xcolor}
+\setlist[itemize]{leftmargin=5mm, label= --, itemsep=0pt, parsep=0.5pt}
 
 \usepackage[latin1] {inputenc}
+
+% ============= Custom Text Color =============
+\definecolor{maroon}{RGB}{128, 0, 0} % or tweak the RGB as needed
 
 % ============= Text Margin Adjustment =============
 \topmargin -.2in
@@ -45,7 +48,7 @@
 
 % ============= Name / Contact =============
 \name{WaiYan (Anson) Chan \vspace*{.1in}}
-\jobtitle{Graduate Research Assistant / Ph.D. Candidate}
+\jobtitle{Ph.D. Candidate / Graduate Research Assistant}
 \company{University of Wisconsin-Madison}
 \email{wchan29@wisc.edu}
 \website{wchan29.github.io}
