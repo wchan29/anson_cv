@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.28)  13 JUL 2025 22:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.28)  25 JAN 2026 22:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -281,17 +281,17 @@ Overfull \hbox (3.54622pt too wide) in paragraph at lines 24--28
  []
 
 ) (section/edexperience.tex
-Overfull \hbox (111.95122pt too wide) in paragraph at lines 2--12
+Overfull \hbox (25.22745pt too wide) in paragraph at lines 2--7
 [] 
  []
 
 
-Overfull \hbox (111.95122pt too wide) in paragraph at lines 13--17
+Overfull \hbox (14.38628pt too wide) in paragraph at lines 12--16
 [] 
  []
 
 
-Overfull \hbox (111.95122pt too wide) in paragraph at lines 34--39
+Overfull \hbox (18.0pt too wide) in paragraph at lines 33--38
 [] 
  []
 
@@ -300,44 +300,24 @@ Overfull \hbox (111.95122pt too wide) in paragraph at lines 34--39
 [1
 
 {C:/Users/ans0n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (section/industry_experience.tex
-Overfull \hbox (5.35364pt too wide) in paragraph at lines 2--6
+Overfull \hbox (5.35364pt too wide) in paragraph at lines 2--7
 [] 
  []
 
 
-Overfull \hbox (7.15994pt too wide) in paragraph at lines 8--12
+Overfull \hbox (7.15994pt too wide) in paragraph at lines 13--17
 [] 
  []
 
-) (section/adexperience.tex
-Overfull \hbox (39.68121pt too wide) in paragraph at lines 3--8
-[] 
+) (section/pubs_journal.tex) (section/pubs_conference.tex) (section/patent.tex) (section/pres.tex
+Overfull \hbox (1.68555pt too wide) in paragraph at lines 5--6
+[]\OT1/cmr/m/it/10 Scaling of High-Speed Sur-face PM Bear-ing-less Ma-chines\OT1/cmr/m/n/10 , IEEE En-ergy Con-ver-sion Congress
  []
 
-) (section/grants.tex
-Overfull \hbox (39.68121pt too wide) in paragraph at lines 13--1
-[]
- []
+) (section/poster.tex
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--1
-
- []
-
-
-
-[2]) (section/pubs.tex
-Overfull \hbox (39.68121pt too wide) in paragraph at lines 3--1
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--1
-
- []
-
-) (section/pres.tex) (section/plang.tex) (section/certs.tex
-Overfull \hbox (39.68121pt too wide) in paragraph at lines 3--6
+[2]) (section/plang.tex) (section/certs.tex
+Overfull \hbox (111.95122pt too wide) in paragraph at lines 3--6
 [][] 
  []
 
@@ -350,15 +330,15 @@ L3 programming layer <2025-04-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 9528 strings out of 469941
- 150283 string characters out of 5469430
- 554204 words of memory out of 5000000
- 36226 multiletter control sequences out of 15000+600000
+ 9541 strings out of 469941
+ 150705 string characters out of 5469430
+ 555204 words of memory out of 5000000
+ 36236 multiletter control sequences out of 15000+600000
  629244 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,309b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,356b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on cv.pdf (3 pages, 108038 bytes).
+Output written on cv.pdf (3 pages, 116887 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)
