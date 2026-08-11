@@ -143,6 +143,9 @@ INPUT section\pres.tex
 INPUT .\section\poster.tex
 INPUT .\section\poster.tex
 INPUT section\poster.tex
+INPUT .\section\award.tex
+INPUT .\section\award.tex
+INPUT section\award.tex
 INPUT .\section\plang.tex
 INPUT .\section\plang.tex
 INPUT section\plang.tex

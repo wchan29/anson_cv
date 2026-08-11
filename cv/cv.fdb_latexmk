@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1786426564.86981 "d:/git/anson_cv/cv/cv.tex" "cv.pdf" "cv" 1786426565.34114 0
+["pdflatex"] 1786490309.60735 "d:/git/anson_cv/cv/cv.tex" "cv.pdf" "cv" 1786490310.0813 0
   "C:/Users/ans0n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1769295214 280743 9d7a285096f1efcc7b6c3688e183948e ""
   "C:/Users/ans0n/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1751142791 13157641 5b24552edb98c09c5fe6bf850227a80b ""
   "C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136793854 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -63,19 +63,20 @@
   "C:/Users/ans0n/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ans0n/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "cv.aux" 1786423360 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "cv.tex" 1786423843 2105 6cd23fecb3461d75d7776ef498845aa6 ""
-  "d:/git/anson_cv/cv/cv.tex" 1786423843 2105 6cd23fecb3461d75d7776ef498845aa6 ""
+  "cv.tex" 1786489809 2134 e9d095a9d001c2c1667e8b523bca0d9c ""
+  "d:/git/anson_cv/cv/cv.tex" 1786489809 2134 e9d095a9d001c2c1667e8b523bca0d9c ""
   "res.cls" 1769385431 26110 89b3f130a73c9c3fe434d8e6d0066938 ""
+  "section/award.tex" 1786490000 230 e2b985c6245d982bf6f11676acdc5583 ""
   "section/certs.tex" 1769391807 165 a182c6f6350f40b2c4dffc0840353907 ""
-  "section/edexperience.tex" 1786423623 2519 7d97eacde4e10a12a09e4642d04e08d7 ""
+  "section/edexperience.tex" 1786490309 2556 1ce724a9cc480dcbf2f6e8f6962e2cd0 ""
   "section/education.tex" 1786423001 1111 8b6a29962c707cd81d08adc7dd60f235 ""
   "section/industry_experience.tex" 1769391760 1325 f7ba6c4a79ea3e687dc431867b8275a0 ""
   "section/patent.tex" 1769388442 383 98ea25501298f70db00b5a019788db45 ""
   "section/plang.tex" 1769388810 270 14ff9ce3afa97854119db4f250ad2919 ""
   "section/poster.tex" 1769388357 376 8acb94ceec6a4b7f15bf08256e4567a9 ""
   "section/pres.tex" 1769388352 312 5ebfb7fd2da68b4c8695a0f037020936 ""
-  "section/pubs_conference.tex" 1786426564 1581 74de0aa16ad523cd4cea0103dc4df6f5 ""
-  "section/pubs_journal.tex" 1769386759 391 fe627dee0656a2213aa3d97a98161682 ""
+  "section/pubs_conference.tex" 1786489493 1701 2787097bfc0346c8e8be96a970fe7fae ""
+  "section/pubs_journal.tex" 1786489192 425 4a088077913f852b4ff8255d388ecf57 ""
   "section/teaching_experience.tex" 1786425654 424 934eef5f378c187388937633eb3551bf ""
   (generated)
   "cv.aux"

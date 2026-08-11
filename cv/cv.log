@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.28)  11 AUG 2026 00:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.28)  11 AUG 2026 18:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -326,7 +326,12 @@ Overfull \hbox (1.68555pt too wide) in paragraph at lines 5--6
 []\OT1/cmr/m/it/10 Scaling of High-Speed Sur-face PM Bear-ing-less Ma-chines\OT1/cmr/m/n/10 , IEEE En-ergy Con-ver-sion Congress
  []
 
-) (section/poster.tex) (section/plang.tex) (section/certs.tex
+) (section/poster.tex) (section/award.tex) (section/plang.tex
+Overfull \hbox (3.54622pt too wide) in paragraph at lines 3--1
+[][]
+ []
+
+) (section/certs.tex
 Overfull \hbox (111.95122pt too wide) in paragraph at lines 3--6
 [][] 
  []
@@ -340,15 +345,15 @@ L3 programming layer <2025-04-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 9547 strings out of 469941
- 150923 string characters out of 5469430
+ 9553 strings out of 469941
+ 151057 string characters out of 5469430
  555204 words of memory out of 5000000
- 36239 multiletter control sequences out of 15000+600000
+ 36242 multiletter control sequences out of 15000+600000
  629244 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,358b,625s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,367b,625s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ans0n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on cv.pdf (3 pages, 121446 bytes).
+Output written on cv.pdf (3 pages, 123083 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)
