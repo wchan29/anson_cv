@@ -120,7 +120,11 @@ INPUT C:\Users\ans0n\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.t
 INPUT .\section\edexperience.tex
 INPUT .\section\edexperience.tex
 INPUT section\edexperience.tex
+INPUT C:\Users\ans0n\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\ans0n\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\section\teaching_experience.tex
+INPUT .\section\teaching_experience.tex
+INPUT section\teaching_experience.tex
 INPUT .\section\industry_experience.tex
 INPUT .\section\industry_experience.tex
 INPUT section\industry_experience.tex
@@ -136,7 +140,6 @@ INPUT section\patent.tex
 INPUT .\section\pres.tex
 INPUT .\section\pres.tex
 INPUT section\pres.tex
-INPUT C:\Users\ans0n\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\section\poster.tex
 INPUT .\section\poster.tex
 INPUT section\poster.tex
